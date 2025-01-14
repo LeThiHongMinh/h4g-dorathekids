@@ -41,7 +41,7 @@ click==8.1.7
 clikit==0.6.2
 cloudpathlib==0.20.0
 comm==0.2.2
-command-not-found==0.3
+# command-not-found==0.3
 confection==0.1.5
 contourpy==1.2.1
 crashtest==0.3.1
