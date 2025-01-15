@@ -14,4 +14,3 @@ django-debug-toolbar==4.2.0
 celery==5.3.5
 redis==5.0.0
 channels==4.0.0
-django-redis==5.3.1
