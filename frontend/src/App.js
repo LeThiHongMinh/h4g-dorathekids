@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter,
+  Navigate,
+  Routes,
+  Route,
+  Outlet,
+} from 'react-router-dom';
+// import React, { useState, useEffect } from 'react';
+// import { useSelector } from 'react-redux';
+import HomePage from './pages/home';
+// const PrivateRoutes = () => {
+//   const { isAuth } = useSelector((state) => state.auth);
+//   return <>{isAuth ? <Outlet /> : <Navigate to='/login' />}</>;
+// };
 
-function App() {
+// const RestrictedRoutes = () => {
+//   const { isAuth } = useSelector((state) => state.auth);
+//   return <>{!isAuth ? <Outlet /> : <Navigate to='/' />}</>;
+// };
+
+const App = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/product" element={<HomePage/>} />
+        </Routes>
+      </BrowserRouter>
+  
   );
-}
+};
 
 export default App;
