@@ -12,6 +12,27 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+AUTH_USER_MODEL = 'api.CustomUser'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication'
+
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
+
+# Email settings
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'your-email@gmail.com'
+EMAIL_HOST_PASSWORD = 'your-email-password'
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +46,7 @@ SECRET_KEY = 'django-insecure-h*5&&e5rbkom8+u6hc8y&^%vz0vb6jwujhf@tku9j%a=i7jnoi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['h4g-dorathekids.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -85,11 +106,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dorathekids',         # Replace with your PostgreSQL database name
-        'USER': 'postgres',         # Replace with your PostgreSQL username
-        'PASSWORD': 'postgres', # Replace with your PostgreSQL password
-        'HOST': 'localhost',            # Typically 'localhost' for local development
-        'PORT': '5432',                 # Default PostgreSQL port
+        'NAME': 'dorathekids',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost', 
+        'PORT': '5432',      
     }
 }
 

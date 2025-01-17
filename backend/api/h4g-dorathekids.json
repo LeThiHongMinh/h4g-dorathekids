@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "h4g-dorathekids",
+  "private_key_id": "0f3730234c6a955205f7c128b4424ccc09a48164",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDEwGWTr2F1f7C8\nwSdpcmgAoiZRoDFOFeaFBnMvBz//VJ5B5MsX8KhpfPH+4z67OUnLjGh/xL+8j+Zt\nL23Lu2CmV66P/Vi/YUJJ2Dr2vWeH/28GWpRB/v8f7aACaNPmGl89jJUwWEt/W7pP\n6NLegfYGoGkQbLqdnMyX4PllmmuGYaRZ5CD4KpRA8vmF+NIwvlq/K0/0+ibbSEKt\nESpr5BIXcLVxPMvIhRc5dJNqv2zWAk87wiNNnH3DDw8tkv505Y4T1yZl2xTrkVNm\neHd3qCOI81orPczQFTT64wUP/FHL089YnAnDC0jzCsuPUcdNerb5w5FggL4uc+fX\nVb1Pbm9VAgMBAAECggEABEJq1vDb2hO/m1zn7rjfvSCSVjLZOAJYkTyu6OLuGCfL\nnUv7HmbC+DWqQrhf6hgdaHiyGNuewwUVs5UGE+KkmJu0io158S3r2Q/QIJNZ8HAv\nn4jKeOGwwdvLgQHZkVVObO8XZvDvNK/WfFbJnRbD+sGL3lbCqEx16W8HamAWpjwU\nUGSagvR4a8mgAbjzEHHm3Havr6yrfupjeblD1psMEtBrDgs/fHDj7RoPKSXuqXvT\n8brG+9b0F+CH88OKUda00oteV86O1DsmeCoqZlDuvKJPNcscwf6nRVwGlM+/MY2V\nG9n4o1X0DsDXulAuY0F5jpw4Tybayn6x7wPGVto3AQKBgQD/97bqSFI94rOs0+xC\n5ayB1dEY9cUZeqw3vjdWyzGF6bUh3GhNcmByCiSNCy34S/8hnbrE74khXWfRgstV\naAguL6bPQj6sD8blff9w685texx4Ln4tuAm1PzVij0iwDN5s2PmgLsGjFmgBoUQx\n6/aVFc3Zk6Gstr6Nn8aj8h4poQKBgQDExsP3LnoedY0RV5ZXd8mVExQI9Qnl1C4y\nLNvauV2MfgukBpfhV7w3RAdxZ9C2rvL4XF1qTyWiCgZAkrF863rPdnNNQXkAf1cK\npgfT3ZluUchU8P+KQKP9dRMxncz2v5zHycdG6qUhFEOBQkvQqjhGihJZcDT3GOSM\ngJREjjgxNQKBgQDUDE7H/2nCQtA+WMHdGY+zb4JtfwztcqbA9x+5E1PPcDDSAFmX\n7yzezHBDOAO5MpwFKTnUc+vSbCLZedUgx7IfMPKruGFbASbwb1TyIyc7o0WOelWl\nYlUIhXigUbsRvVd2LLl/bbyUcrduwj5QbP41u35wxNCm2C07/iT9JFLAgQKBgE+U\nMtxcJ3b6AzroORzWjOeE961Hq+EOlkAkdCVYocSXlQ2YvQOc/7k6AeiTG41F420d\nrYm4yHdnpm+m47CpatlMBgVQXSceWI0t6Cx+ifZbjLENZcr7qVZvanu+XY3MoBMM\nP1MmwfFGyKYVsaOJs4iTfig9gK4NmyBXP58aBQ+hAoGAIjQSBl/MrS7Iht1RdWDz\neuXLQDYJjAJC7e3LJ1CD0zrT1w2gb881V2+XFjvWv6n8txlrpezHVQ+yZTjF5dXN\nvMfgaAZsSgooi616LR6ArebX0V+sJHEWlNPvtj4qQ4L2RkXOu2GQQWBjAdaFGs2/\nfYDDnCA5pFn0cHz3huI7/MM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-h8n73@h4g-dorathekids.iam.gserviceaccount.com",
+  "client_id": "101688064717261739004",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-h8n73%40h4g-dorathekids.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
