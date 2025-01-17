@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'api',
+    'finance',
 ]
 
 MIDDLEWARE = [
@@ -87,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dorathekids',         # Replace with your PostgreSQL database name
         'USER': 'postgres',         # Replace with your PostgreSQL username
-        'PASSWORD': 'postgres', # Replace with your PostgreSQL password
+        'PASSWORD': 'nqdhaiduong@1110', # Replace with your PostgreSQL password
         'HOST': 'localhost',            # Typically 'localhost' for local development
         'PORT': '5432',                 # Default PostgreSQL port
     }
