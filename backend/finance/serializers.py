@@ -7,4 +7,4 @@ class VoucherSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Voucher
-        fields = ['id', 'user', 'product_name', 'balance', 'created_at', 'updated_at']
+        fields = ['product_name', 'balance']
